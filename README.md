@@ -6,34 +6,7 @@ This repository keeps PHP practice work easy to browse, review, and revisit. Eac
 
 The goal is simple: keep the work organized enough that future-you can find it without asking present-you what `final-final-v2.php` was supposed to mean.
 
-%%{init: {"flowchart": {"curve": "linear", "nodeSpacing": 55, "rankSpacing": 65}, "theme": "base", "themeVariables": {"primaryColor": "#eff6ff", "primaryTextColor": "#172554", "primaryBorderColor": "#2563eb", "lineColor": "#64748b", "secondaryColor": "#f0fdf4", "tertiaryColor": "#fff7ed"}}}%%
-flowchart TB
-    G([📦 Git repository])
-    G --> R1[🗂️ Exercise set 01]
-    G --> R2[🗂️ Exercise set 02]
-    G --> R3[🗂️ Exercise set ...]
-
-    R1 --> E11[🐘 Exercise 01]
-    R1 --> E12[🐘 Exercise 02]
-    R1 --> E1N[🐘 Exercise ...]
-
-    R2 --> E21[🐘 Exercise 01]
-    R2 --> E22[🐘 Exercise 02]
-    R2 --> E2N[🐘 Exercise ...]
-
-    R3 --> E31[🐘 Exercise 01]
-    R3 --> E32[🐘 Exercise 02]
-    R3 --> E3N[🐘 Exercise ...]
-
-    classDef root fill:#1d4ed8,color:#fff,stroke:#1e3a8a,stroke-width:2px
-    classDef set fill:#dbeafe,color:#172554,stroke:#3b82f6,stroke-width:1.5px
-    classDef exercise fill:#dcfce7,color:#14532d,stroke:#22c55e,stroke-width:1.5px
-    class G root
-    class R1,R2,R3 set
-    class E11,E12,E1N,E21,E22,E2N,E31,E32,E3N exercise
-```
-
-### At a glance
+## At a glance
 
 ![A colorful overview of the repository structure](project-structure.svg)
 
