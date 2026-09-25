@@ -22,13 +22,25 @@
             echo $dia . ", ";
         }
     }
+
+    /*
+    for($var = 0; $var = 6; $++){
+    }
+    */
     ?>
+
 
     <ol>
         <?php foreach (dias as $dia) { ?>
             <li><?= $dia ?></li>
         <?php } ?>
     </ol>
+
+    <!--otra manera de hacerlo es
+
+    
+    
+    -->
 
 </body>
 
